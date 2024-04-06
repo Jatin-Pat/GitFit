@@ -25,43 +25,43 @@
                             dark:hover:bg-gray-700 dark:hover:text-white
                             md:dark:hover:bg-transparent">Registrations</router-link>
                     </li>
-                    <li><!-- /sessions -->
+                    <li>
                         <router-link to="/sessions" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent
                             md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500
                             dark:hover:bg-gray-700 dark:hover:text-white
                             md:dark:hover:bg-transparent">Sessions</router-link>
                     </li>
-                    <li><!-- /sessions -->
+                    <li>
                         <router-link to="/new-session" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent
                             md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500
                             dark:hover:bg-gray-700 dark:hover:text-white
                             md:dark:hover:bg-transparent">New Session</router-link>
                     </li>
-                    <li><!-- /sessions -->
-                        <router-link to="/new-fitness-class" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent
+                    <li>
+                        <router-link to="/fitness-classes" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent
                             md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500
                             dark:hover:bg-gray-700 dark:hover:text-white
                             md:dark:hover:bg-transparent">Fitness Classes</router-link>
                     </li>
-                    <li><!-- /sessions -->
-                        <router-link to="/new-session" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent
+                    <li>
+                        <router-link to="/new-fitness-class" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent
                             md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500
                             dark:hover:bg-gray-700 dark:hover:text-white
                             md:dark:hover:bg-transparent">New Fitness Class</router-link>
                     </li>
-                    <li><!-- /sessions -->
+                    <li>
                         <router-link to="/instructors" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent
                             md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500
                             dark:hover:bg-gray-700 dark:hover:text-white
                             md:dark:hover:bg-transparent">Instructors</router-link>
                     </li>
-                    <li><!-- /account -->
+                    <li>
                         <router-link to="/account" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent
                             md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500
                             dark:hover:bg-gray-700 dark:hover:text-white
                             md:dark:hover:bg-transparent">Account</router-link>
                     </li>
-                    <li> <!-- /signout -->
+                    <li>
                         <router-link to="/signout"
                             class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Sign
                             Out</router-link>
