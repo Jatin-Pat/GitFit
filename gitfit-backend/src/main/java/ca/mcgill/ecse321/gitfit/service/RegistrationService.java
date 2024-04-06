@@ -143,6 +143,13 @@ public class RegistrationService {
             throw new SportCenterException(HttpStatus.NOT_FOUND, "Customer not found.");
         }
 
+        Registration existingRegistration = registrationRepository.findRegistrationBySessionAndCustomer(session,
+                customer);
+
+        if (existingRegistration != null) {
+            throw new SportCenterException(HttpStatus.BAD_REQUEST, "Registration already exists.");
+        }
+
         registration.setDate(date);
         registration.setSession(session);
         registration.setCustomer(customer);
